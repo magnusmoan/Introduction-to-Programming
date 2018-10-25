@@ -7,15 +7,19 @@ Problem 2: Lists
 '''
 
 # 1. List names
-my_list = None # Replace None with a list of names
+my_list = ["Viktoria", "Julia", "Jo", "Alexander"]
 print(my_list)
 
 # 2. Sort the list
-
+my_list.sort()
 print(my_list)
 
 # 3. Print last name in list
-print(None)
+print(my_list[-1])
 
 # 4. Print first half of the list
-print(None)
+print(my_list[:len(my_list)//2])
+
+
+
+my_list.append("Magnus")
