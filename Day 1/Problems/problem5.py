@@ -8,4 +8,16 @@ Tasks:
 3. The list of all the Fibonacci numbers up to the *n*th number should be printed to the screen.
 """
 
-# Write your code here!
+n = int(input("n: "))
+
+f0 = 0
+f1 = 1
+
+fib_numbers = [f0, f1]
+
+for i in range(2, n+1):
+    result = fib_numbers[i-1] + fib_numbers[i-2]
+    fib_numbers.append(result)
+
+print(fib_numbers[-1])
+

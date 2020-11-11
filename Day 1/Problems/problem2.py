@@ -7,7 +7,7 @@ Problem 2: Lists
 """
 
 # 1. List names
-my_list = None
+my_list = []
 print(my_list)
 
 # 2. Sort the list
