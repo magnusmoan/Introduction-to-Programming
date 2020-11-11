@@ -1,2 +1,6 @@
 Day\ 1/.ipynb_checkpoints
 .idea
+.venv
+venv
+**/.venv
+**/venv
